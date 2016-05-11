@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/jQueryPractice.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="jQuery/jquery-2.1.4.js"></script>
+    <script src="js/jQueryPractice.js"></script>
+
+</head>
+<body>
+    <!-- Title for tab -->
+    <title>JS demo</title>
+    <!-- Change header -->
+    <div class="row">
+        <div class="change">
+            <h1 id="Header">Javascript Header</h1>
+            <input type="text" id="myTextBox"/>
+            <input type="button" value="Update Header" onclick="updateHeader()"/>
+        </div>
+    </div>
+    <!-- Header practice -->
+    <div>
+        <h2>Header Practice</h2>
+    </div>
+    <!-- List alerts -->
+    <div>
+        <ul>
+            <li class="1">Double Click Here!</li>
+            <br>
+            <li class="2">Double Click Here!</li>
+            <br>
+            <li class="3">Hover to see a whale!</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <!-- Whale Picture -->
+    <div class="whale-showing">
+        <img src="http://i.telegraph.co.uk/multimedia/archive/02027/AXYTG7_2027733b.jpg">
+        <p>This is a picture of a <strong>whale</strong>.</p>
+        <br>
+    </div>
+    <!-- Fade In -->
+    <div>
+        <h3>To Fade In <button class="fadeIn">Click here</button> </h3>
+        <div id="p1">
+            <p class="fade-in hidden">Fade In Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a augue pulvinar, tristique dolor nec, iaculis lacus. Phasellus auctor sem vitae ipsum tempor, et viverra ante facilisis. Vivamus commodo sapien at scelerisque commodo. In magna justo, convallis eget libero in, commodo imperdiet quam. Phasellus vestibulum ut urna nec molestie. Ut finibus malesuada ipsum at tempor. In rutrum orci eget felis tempor molestie. Cras lacinia sodales ipsum id consequat. Nullam lobortis fermentum erat, at laoreet metus hendrerit ut. Praesent velit lorem, varius et aliquet ut, pretium quis nibh. Phasellus ullamcorper velit sapien, nec pharetra sem consectetur nec. Nulla ut fermentum enim. Praesent aliquet dui vitae nunc pulvinar, nec semper ante molestie. Nullam et suscipit magna, nec molestie nisi. Curabitur gravida justo finibus tempus interdum.</p>
+        </div>
+    </div>
+    <br>
+    <!-- Fade Out -->
+    <div>
+        <h3>Fade Out<button class="fadeOut">Click here</button> </h3>
+        <div id="p2">
+            <p class="fade-out">Fade Out Sed eleifend non nulla sit amet eleifend. Ut vehicula sem vitae ex tristique luctus. Curabitur venenatis sollicitudin scelerisque. Maecenas nulla enim, lacinia quis libero sit amet, sollicitudin ullamcorper orci. Phasellus eget tellus varius dolor cursus congue quis sed nisi. Donec cursus neque ut euismod facilisis. Curabitur et augue neque. Mauris quis purus iaculis, semper eros non, pellentesque massa. Vivamus at pharetra diam. Aenean auctor, diam ut interdum porta, lacus purus elementum metus, et pulvinar magna elit vel urna. Phasellus facilisis fringilla massa, eget mollis elit vehicula vel. Etiam sit amet fermentum eros, et condimentum nibh. Fusce nec condimentum orci. In iaculis, eros id eleifend fermentum, elit lectus maximus magna, sed mollis erat elit sit amet nibh. Donec ut arcu nisi. Nunc arcu justo, pharetra a gravida at, tempus in lectus.</p>
+        </div>
+    </div>
+    <br>
+    <!-- Fade Toggle -->
+    <div>
+        <h3>Fade Toggle<button class="fadeToggle">Click here</button> </h3>
+        <div id="p3">
+            <p class="fade-toggle">Fade Toggle Mauris nec ante augue. Etiam sapien lorem, iaculis id molestie vel, bibendum ut purus. Maecenas ut eros commodo, dapibus ex eget, dapibus lorem. Pellentesque molestie iaculis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae condimentum lectus, nec rutrum urna. Phasellus porttitor, orci nec laoreet lobortis, tellus diam efficitur diam, rutrum posuere ante libero nec tortor. Suspendisse fringilla lacus diam, a semper turpis tincidunt eget. Sed sagittis scelerisque lacus et laoreet. Integer non rhoncus augue.</p>
+        </div>
+    </div>
+    <br>
+    <!-- Slide up/down -->
+    <div>
+        <h3>Slide Up/Down <button class="slideUp">Slide Up</button> <button class="slideDown">Slide Down</button> </h3>
+        <div id="p4">
+            <p class="slide">Slide Up/Down Curabitur in purus at dolor malesuada blandit. Maecenas feugiat urna a ornare ullamcorper. Nunc elementum, purus eu pretium pretium, libero arcu vulputate est, ut tincidunt diam risus sit amet arcu. Sed at pharetra mi. Nulla ultrices orci lectus, at consequat nulla aliquam id. Pellentesque ullamcorper arcu nulla, et tristique quam sodales nec. Fusce facilisis tellus in tincidunt feugiat. Integer rutrum elit sed turpis porta, eu condimentum erat congue. Aenean quis tincidunt lacus. Morbi efficitur porttitor enim, eget gravida ante suscipit vitae. Nulla facilisi. Praesent iaculis lorem pulvinar cursus gravida.</p>
+        </div>
+    </div>
+    <br>
+    <!-- Slide Toggle -->
+    <div>
+        <h3>Slide Toggle <button class="slideToggle">Slide Toggle</button> </h3>
+        <div id="p5">
+            <p class="slide-toggle">Slide Toggle Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla aliquam lacus mollis, feugiat nisi nec, pulvinar odio. Phasellus libero mauris, sagittis sit amet nunc a, interdum luctus tellus. Suspendisse arcu lacus, feugiat quis posuere commodo, ultrices ut nulla. Aliquam venenatis magna orci, sed auctor massa sollicitudin nec. Suspendisse iaculis iaculis nunc. Mauris fringilla orci leo, vel tincidunt quam congue sed. Proin et felis mauris. Vivamus et lorem non est congue posuere. Nullam elementum leo id aliquet suscipit. Sed consectetur vehicula leo, ut pharetra ante rutrum tristique. Nullam nibh mauris, rhoncus sed turpis at, scelerisque congue est. Nam eget hendrerit eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+#Header{
+  background-color: red;
+  color:white;
+  font-family: Poiret One;
+
+}
+body{
+  background-color: gray;
+
+}
+.change{
+  margin:auto;
+  background-color: orange;
+  width:40%;
+  text-align: center;
+
+}
+.whale-showing {
+  display:none;
+  padding: 20px;
+  width: 350px;
+  height:420px;
+  border: 2px dashed black;
+  align-content: center;
+  text-align: right;
+  background-color: orange;
+  text-decoration: underline;
+
+}
+p {
+  display:block;
+  margin-bottom: auto;
+
+}
+#p1 {
+  color: orange;
+  font-family:monospace;
+  font-size: 16px;
+
+}
+.hidden {
+  display: none;
+
+}
+#p2 {
+  color: red;
+  font-size: 16px;
+  font-family:monospace;
+
+}
+#p3 {
+  color: orange;
+  font-family:monospace;
+  font-size: 16px;
+
+}
+#p4 {
+  color: red;
+  font-family:monospace;
+  font-size: 16px;
+
+}
+#p5 {
+  color: orange;
+  font-family:monospace;
+  font-size: 16px;
+
+}
+#p6 {
+  color: red;
+  font-family:monospace;
+  font-size: 16px;
+}
